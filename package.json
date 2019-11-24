@@ -1,0 +1,45 @@
+{
+  "name": "monk-react-components",
+  "version": "1.0.0",
+  "description": "This package is useful to display buttons and inputTexts easily using React",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmonje/monk-react-components.git"
+  },
+  "author": "Lucas Monje",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmonje/monk-react-components/issues"
+  },
+  "homepage": "https://github.com/lucasmonje/monk-react-components#readme",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint": "^4.19.1",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-babel": "^5.0.0",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "24.9.0",
+    "jest-environment-jsdom-fourteen": "0.1.0",
+    "jest-resolve": "24.9.0",
+    "jest-watch-typeahead": "0.4.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "dependencies": {
+    "prop-types": "latest"
+  }
+}
